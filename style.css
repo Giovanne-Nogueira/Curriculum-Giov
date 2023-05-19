@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#fundo{
+    background-color: black;
+    padding: 8vb 25vb 3vb 25vb;
+}
+#header{
+    border-radius: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: aliceblue;
+    color:black;
+
+}
+#imagem{
+    width: 10vw;
+    height: 20vh;
+    padding: 3vb 3vb 3vb 10vb;
+}
+#header-content{
+    padding-top: 10vb;
+}
+#sub-header{
+    font-size:x-large;
+}
+.blocks{
+    border: solid;
+    margin: 3vb;
+    padding: 2vb;
+    border-radius: 10px;
+}
+.blocks-esq{
+    border: solid;
+    margin: 3vb;
+    padding: 2vb;
+    margin-left: 4vb;
+    border-radius: 10px;
+}
+#carrossel{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: aliceblue;
+    height: 30vw;
+}
+#Formação, #experiencia, #idiomas, #contatos{
+    display: none;
+}
+#seta-direita{
+    
+    margin: 20vb 8vb 20vb 2vb;
+}
+.seta{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin-top:20vb ;
+}
+#seta-esquerda{
+    
+    margin: 20vb 1vb 20vb 8vb;
+    display: none;
+}
+#seta-esquerda2{
+    display: none;
+    
+}
+#seta-direita2{
+    display: none;
+    margin: 20vb 8vb 20vb 2vb;
+}
+#port{
+    background-color: blue;
+    height: 2vw;
+    width: 15vw;
+    border-radius: 5px;
+    padding: 2vb;
+}
+#ing{
+    background-color: orangered;
+    height: 2vw;
+    width: 7.5vw;
+    border-radius: 5px;
+    padding: 2vb;
+}
+#contatos{
+    margin-top: 3vb;
+    margin-right: 75vb;
+    height: 45vb;
+    
+}
+.list{
+    list-style: none;
+    
+}
+.seta:hover{
+    transform: translateY(-8px);
+    transition-duration: 0.5s;
+}
